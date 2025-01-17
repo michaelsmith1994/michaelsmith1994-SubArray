@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class SubArray {
     /**
@@ -13,6 +15,6 @@ public class SubArray {
      * @return a sub-array of nums containing the values between start and end.
      */
     public int[] sub(int[] nums, int start, int end){
-        return null;
+        return Arrays.copyOfRange(nums, start, end);
     }
 }
